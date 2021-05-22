@@ -8,7 +8,7 @@ public class Accounts {
 	private String accountName;
 	private double amountOfMoney;
 	private static ArrayList<Accounts> accountList;
-	private static Accounts account1 = new Accounts(1, "Debit", "Edirne", 100.99);
+	private static Accounts account1 = new Accounts(1, "Debit", "Edirne", 100.99); // Default Accounts
 	private static Accounts account2 = new Accounts(2, "Credit", "Ýstanbul", 300.99);
 	private static Accounts account3 = new Accounts(3, "Debit", "Ýzmir", 200.99);
 	

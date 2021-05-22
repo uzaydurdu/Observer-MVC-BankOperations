@@ -20,25 +20,12 @@ public class BankController {
 		this.model.add(view);
 	}
 	
-	/*public void setView(BankView view) {
-		this.view = new BankView();
-	}*/
 	
 	public void start() {
 		
 		view.showMenuScreen();
 	}
 	
-	/*public void tamamDevam(MyTimerController timer) {
-		if(model.isState()) {
-			view.showMenuScreen();
-			return;
-		}
-		if(model.timeIsOut()) {
-			//view1.showTurningOff();
-			return;
-		}
-	}*/
 	
 	public static void showingBalanceOfAccount(int id) {
 		
